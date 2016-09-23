@@ -1,0 +1,24 @@
+@media screen and (max-width: 480px){
+ 	.box-contacto h1{
+ 		font-size: 26px;
+ 	}
+
+ 	.box-contacto .hola form{
+	width: 100%;
+	margin-top: 2%;
+	}
+}
+
+@media screen and (max-width: 667px){
+	
+  }
+
+@media screen and (max-width: 1024px){
+
+  }
+
+@media screen and (max-width: 1600){
+
+  }
+
+ /* termina kelly*/
