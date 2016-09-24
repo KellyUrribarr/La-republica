@@ -1,1 +1,88 @@
-/* Inserta tu código de la página home/index acá */
+.banner{
+	background-color: #f0f0f0;
+}
+.diarios{
+	margin-top: 1.5%;
+	margin-bottom: 0.5%;
+	font-size: 77%;
+	font-family: 'Open Sans', sans-serif;
+	color: #989898;
+}
+.margen{
+	padding-left: 1%;
+}
+.boletin{
+	font-size: 80%;
+	text-align: center;
+	background-color: #ff0000;
+	color: #fff;
+	border-radius: 3px;
+	padding: 0.5%;
+}
+.logo-republica{
+	margin-top: 4%;
+	margin-bottom: 4%;
+}
+.domingo{
+	width: 23%;
+	background-color: #bb1515;
+	margin-top: -5%;
+	margin-left: 40%;
+	color: #fff;
+	padding-left: -3%;
+	padding-right: -3%;
+}
+.lideresa{
+	border: #c0c5ce 2px solid; 
+	border-bottom-color: #bb1515;
+	text-align: center;
+	margin: 3% 1% 1% 1%;
+}
+.lideresa p{
+	font-size: 80%;
+	font-weight: bolder;
+}
+.lideresa2{
+	margin-top: 3%;
+}
+.editorial{
+	margin-top: 6%;
+}
+.borde1{
+	border-radius: 6px 0 0 6px;
+}
+.borde2{
+	border-radius: 0 6px 6px 0;
+}
+.enlaces{
+	background-color: #F51111;
+	color: #ffffff;
+	font-size: 90%;
+	margin: -2px;
+	padding: 0.5% 0.7%;
+}
+.champions{
+	background-color: #0900ff;
+	color: #ffffff;
+	font-size: 90%;
+	/*margin-left: 0.9%;*/
+	margin: -2px;
+	padding: 0.5% 0.7%;
+}
+.temas-dia{
+	margin-top: 2.5%;
+}
+.temas{
+	color: #fff;
+	background-color: black;
+	padding: 1%;
+}
+.grey{
+	background-color: #e5e6eb;
+	color: #000000;
+	margin: -2px;
+	padding: 1% 1.9%;
+}
+.banner-header{
+	margin-top: 1.7%;
+}
