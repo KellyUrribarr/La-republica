@@ -1,1 +1,72 @@
-/* Inserta tu código de la página blog acá */
+/* SECCION PRIMERA*/
+
+.blogs{
+	font-size: 20px;
+	margin-top: 20px;
+}
+.flecha{
+	display: inline-block;
+}
+.box{
+	display: inline-block;
+}
+.texto-blog{
+	margin: 0;
+	padding: 0;
+}
+.libros{
+	color: #579690;
+}
+.caja{
+	border: 1px solid #C3D1E8;
+	padding: 10px;
+	padding-top: 30px;
+	margin-bottom: 20px;
+}
+.lunes{
+	text-align: center;
+}
+.media{
+	background-color: #C3D1E8;
+	padding: 10px;
+}
+.foto{
+	border: 2px solid white;
+}
+/* FOOTER*/
+.contacto{
+	margin: 0;
+}
+li{
+	margin: 0;
+	list-style: none;
+}
+a{
+	color: black;
+}
+.logo{
+	padding-top: 100px;
+}
+.linea{
+	border-left: 2px solid #C7D0D4;
+}
+.final{
+	font-size: 12px;
+	border-top: 2px solid #C7D0D4;
+	margin-top: 20px;
+	padding-top: 10px;
+}
+footer{
+	background-color: #BDC6C9;
+}
+/* FOOTER negro*/
+.cajita{
+	background-color: black;
+	text-align: center;
+}
+.negro{
+	color: white;
+}
+.todos{
+	font-size: 10px;
+}
