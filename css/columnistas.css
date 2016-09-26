@@ -1,1 +1,74 @@
-/* Inserta tu código de la página columnistas acá */
+/* Parte de Jessica- Columnistas */
+
+font-family: 'Open Sans Condensed', sans-serif;
+.h1{
+	font-size: 30px;
+}
+.title2{
+	display: inline-block;
+	font-family: 'Open Sans Condensed', sans-serif;
+	color:grey;
+	font-size: 20px; 
+	padding-bottom:20px;
+	padding-top: 20px;
+}
+.hijobox{
+	display: inline-block;
+}
+.title4{
+	margin:0;
+	padding: 0;
+}
+.title3{
+	text-align: center;
+	height: 40px;
+}
+.box1{
+	border:1px solid #c8ccd2;
+	padding: 10px;
+	padding-top: 20px;
+	margin-bottom: 20px;
+}
+.minibox{
+	background-color: #C3D1E8;
+	padding: 10px 5px;
+}
+.colum1{
+	border: 2px solid white;
+}
+.cualidades{
+	color: #579690;
+}
+.btn-danger{
+ width: 200px;
+ margin:0 auto;
+}
+.barrared{
+	background-color: #F51111;
+	margin-bottom: 5px;
+	height: auto;
+}
+.copia{
+	margin-bottom: 10px;
+}
+.barrared a{
+	color: white;
+	margin-top: 20px;
+	list-style: none;
+}
+.barrared li{
+	display: inline-block;
+	list-style: none;
+	margin:20px;
+}
+.barrared ul{
+	text-align: center;
+	padding-top: 5px;
+}
+.tinto{
+	background-color: #a50021;
+	border:1px solid #a50021;
+	border-radius: 10px;
+	width: 70px;
+}
+
