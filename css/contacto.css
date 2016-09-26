@@ -1,3 +1,82 @@
+/* monse*/
+.banner{
+	background-color: #f0f0f0;
+}
+.size{
+	font-size: 70%;
+
+}
+.boletin{
+	font-size: 65%;
+	background-color: #ff0000;
+	color: #fff;
+	border-radius: 3px;
+	padding: 0.8%;
+	margin-left: 15%;
+}
+.social{
+	margin-left: 20%;
+}
+.icon{
+	width: 70%;
+}
+.logo-republica{
+	margin-top: 4%;
+	margin-bottom: 4%;
+}
+.domingo{
+	width: 23%;
+	background-color: #bb1515;
+	margin-top: -3%;
+	margin-left: 40%;
+	color: #fff;
+	padding-left: -3%;
+	padding-right: -3%;
+}
+.lideresa{
+	border: #c0c5ce 2px solid; 
+	border-bottom-color: #bb1515;
+	text-align: center;
+	margin: 3% 1% 1% 1%;
+	padding-top: 0.5%;
+	padding-bottom: 0.5%;
+}
+.editorial{
+	padding-top: 11%;
+}
+.lideresa p{
+	font-size: 80%;
+	font-weight: bolder;
+}
+.lideresa2{
+	margin-top: 3%;
+}
+.enlaces{
+	font-size: 80%;
+	color: #fff;
+}
+.margen{
+	padding-left: 4%;
+}
+.temas-dia{
+	margin-top: 2.5%;
+	margin-left: 1.3%;
+}
+.temas{
+	color: #fff;
+	background-color: black;
+	padding: 1%;
+}
+.grey{
+	background-color: #e5e6eb;
+	color: #000000;
+	margin: -2px;
+	padding: 1% 1.9%;
+}
+.banner-header{
+	margin-top: 1.7%;
+}
+/* monse*/
 /* contacto */
 .box-contacto h1{
 	color: #000;
@@ -34,5 +113,43 @@ textarea.form-control {
 	padding-left: 100px;
 	padding-right: 100px;
 	margin-bottom: 10%;
+}
+
+/* FOOTER*/
+.contacto{
+	margin: 0;
+}
+li{
+	margin: 0;
+	list-style: none;
+}
+a{
+	color: black;
+}
+.logo{
+	padding-top: 100px;
+}
+.linea{
+	border-left: 2px solid #C7D0D4;
+}
+.final{
+	font-size: 12px;
+	border-top: 2px solid #C7D0D4;
+	margin-top: 20px;
+	padding-top: 10px;
+}
+footer{
+	background-color: #BDC6C9;
+}
+/* FOOTER negro*/
+.cajita{
+	background-color: black;
+	text-align: center;
+}
+.negro{
+	color: white;
+}
+.todos{
+	font-size: 10px;
 }
 
