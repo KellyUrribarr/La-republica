@@ -1,23 +1,23 @@
 .banner{
 	background-color: #f0f0f0;
 }
-.diarios{
-	margin-top: 1.5%;
-	margin-bottom: 0.5%;
-	font-size: 77%;
-	font-family: 'Open Sans', sans-serif;
-	color: #989898;
-}
-.margen{
-	padding-left: 1%;
+.size{
+	font-size: 70%;
+
 }
 .boletin{
-	font-size: 80%;
-	text-align: center;
+	font-size: 65%;
 	background-color: #ff0000;
 	color: #fff;
 	border-radius: 3px;
-	padding: 0.5%;
+	padding: 0.8%;
+	margin-left: 15%;
+}
+.social{
+	margin-left: 20%;
+}
+.icon{
+	width: 70%;
 }
 .logo-republica{
 	margin-top: 4%;
@@ -26,7 +26,7 @@
 .domingo{
 	width: 23%;
 	background-color: #bb1515;
-	margin-top: -5%;
+	margin-top: -3%;
 	margin-left: 40%;
 	color: #fff;
 	padding-left: -3%;
@@ -37,6 +37,11 @@
 	border-bottom-color: #bb1515;
 	text-align: center;
 	margin: 3% 1% 1% 1%;
+	padding-top: 0.5%;
+	padding-bottom: 0.5%;
+}
+.editorial{
+	padding-top: 11%;
 }
 .lideresa p{
 	font-size: 80%;
@@ -45,32 +50,16 @@
 .lideresa2{
 	margin-top: 3%;
 }
-.editorial{
-	margin-top: 6%;
-}
-.borde1{
-	border-radius: 6px 0 0 6px;
-}
-.borde2{
-	border-radius: 0 6px 6px 0;
-}
 .enlaces{
-	background-color: #F51111;
-	color: #ffffff;
-	font-size: 90%;
-	margin: -2px;
-	padding: 0.5% 0.7%;
+	font-size: 80%;
+	color: #fff;
 }
-.champions{
-	background-color: #0900ff;
-	color: #ffffff;
-	font-size: 90%;
-	/*margin-left: 0.9%;*/
-	margin: -2px;
-	padding: 0.5% 0.7%;
+.margen{
+	padding-left: 4%;
 }
 .temas-dia{
 	margin-top: 2.5%;
+	margin-left: 1.3%;
 }
 .temas{
 	color: #fff;

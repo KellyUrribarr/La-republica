@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>La Répública - Home</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
@@ -11,80 +12,90 @@
   <link rel="stylesheet" type="text/css" href="css/home.css">
 </head>
 <body>
+    
+
     <div class="row banner">
         <div class="container">
-               <div class="col-xs-16 col-md-16">
+               <div class="col-md-16 hidden-xs">
     	             <img src="image/banner_top.jpg" alt="banner-top">
     	         </div> 
-        </div>          
-           <div class="row banner">    
-    	         <nav class="col-xs-7 col-md-7 diarios">
-    	            <a href="#" class="margen">LIBERO.PE</a>
-                  <a href="#" class="margen">ELPOPULAR.PE</a>
-                  <a href="#" class="margen">FUNDACION GUSTAVO MOHME LLONA</a>
-               </nav>
-                 
-               <div class="col-xs-3 col-md-3">    
-    	              <a href="#" class="boletin">SUSCRÍBETE AL BOLETÍN</a>
-               </div> 
-               <div class="col-xs-3 col-md-3">   
-                   <a href="#"><img src="image/facebook.png" class="social-net"></a>  
-                   <a href="#"><img src="image/twitter.png" class="social-net"></a>  
-                   <a href="#"><img src="image/google-mas.png" class="social-net"></a>  
-                   <a href="#"><img src="image/mail.png" class="social-net"></a>  
-                   <a href="#"><img src="image/red.png" class="social-net"></a>  
-              </div>
-            
-           </div>     
-       </div>
+        </div>
+    </div>    
+
+
+<div class="row banner">
+    <div class="container">
+        <nav role="navigation">
+            <div class="col-md-7 col-xs-16">
+                <ul class="list-inline">
+                    <li><a href="http://www.libero.pe/" class="size">LIBERO.PE</a></li>
+                    <li><a href="http://www.elpopular.pe/" class="size">ELPOPULAR.PE</a></li>
+                    <li><a href="http://fundacionmohme.org/" class="size">FUNDACION GUSTAVO MOHME LLONA</a></li>
+                </ul>
+            </div>  
+                
+                <div class="col-xs-5 col-md-3">    
+    	              <a href="http://larepublica.pe/boletin" class="boletin text-center">SUSCRÍBETE AL BOLETÍN</a>
+                </div> 
+                <div class="col-md-5 col-xs-5">
+                    <ul class="list-inline social">
+                       <li><a href="https://www.facebook.com/LaRepublicaPeru/?fref=ts"><img src="image/facebook.png" alt="facebook" class="img-responsive icon"></a></li>
+                       <li><a href="https://twitter.com/larepublica_pe"><img src="image/twitter.png" alt="twitter" class="img-responsive icon"></a></li> 
+                       <li><a href="https://plus.google.com/+larepublica"><img src="image/google-mas.png" alt="g-plus" class="img-responsive icon"></a></li>  
+                       <li><a href="#"><img src="image/mail.png" alt="email" class="img-responsive icon"></a></li> 
+                       <li><a href="#"><img src="image/red.png" alt="web" class="img-responsive icon"></a></li>  
+                    </ul>
+               </div>
+           </div> 
+    </nav> 
+</div>
 
     <header>
-
         <div class="container">
             <div class="row">
-                <div class="col-md-6 col-xs-6 logo-republica">
-                    <img src="image/logo-la-republica.jpg">
+                <div class="col-md-6 col-xs-16 logo-republica">
+                    <img src="image/logo-la-republica.jpg" alt="logo" class="img-responsive">
                 </div>
-                <div class="col-md-5 col-xs-5 lideresa2">
+                <div class="col-md-5 col-xs-16 lideresa2">
                     <div class="lideresa">
                         <p class="domingo">DOMINGO</p>
                         <p>HABLA LA LIDERESA DEL NACIONALISMO</p>
                     </div>  
                 </div>
-                <div class="col-xs-5 col-md-5">
-                    <a href="#"><img src="image/editorial.png" class="editorial"></a>
+                <div class="col-xs-16 col-md-5">
+                    <a href="#"><img src="image/editorial.png" alt="editorial" class="img-responsive editorial"></a>
                 </div> 
-
+                <div class="hidden-xs margen">
+                    <nav class="pagination">
+                        <button type="button" class="btn btn-danger enlaces"><a href="#" class="enlaces borde1">POLITICA</a></button>
+                        <button type="button" class="btn btn-danger enlaces"><a href="#" class="enlaces">ECONOMIA</a></button>
+                        <button type="button" class="btn btn-danger enlaces"><a href="#" class="enlaces">SOCIEDAD</a></button>
+                        <button type="button" class="btn btn-danger enlaces"><a href="#" class="enlaces">ELECC. REGIONALES</a></button>
+                        <button type="button" class="btn btn-danger enlaces"><a href="#" class="enlaces">DEPORTES</a></button>
+                        <button type="button" class="btn btn-primary enlaces"><a href="#" class="enlaces">CHAMPIONS L.</a></button>
+                        <button type="button" class="btn btn-danger enlaces"><a href="#" class="enlaces">ESPECTACULOS</a></button>
+                        <button type="button" class="btn btn-danger enlaces"><a href="#" class="enlaces">ED. IMPRESA</a></button>
+                        <button type="button" class="btn btn-danger enlaces"><a href="#" class="enlaces">REGIONALES</a></button>
+                        <button type="button" class="btn btn-danger enlaces"><a href="#" class="enlaces borde2">MAS SECCIONES</a></button>
+                    </nav>
+                </div>
+            
             <div class="row">
-                <nav class="col-md-16 col-xs-16">
-                    <a href="#" class="enlaces borde1">POLITICA</a> 
-                    <a href="#" class="enlaces">ECOMOMIA</a>
-                    <a href="#" class="enlaces">SOCIEDAD</a>
-                    <a href="#" class="enlaces">ELECC. REGIONALES</a>
-                    <a href="#" class="enlaces">DEPORTES</a>
-                    <a href="#" class="champions">CHAMPIONS L.</a>
-                    <a href="#" class="enlaces">ESPECTACULOS</a>
-                    <a href="#" class="enlaces">ED. IMPRESA</a>
-                    <a href="#" class="enlaces">REGIONALES</a>
-                    <a href="#" class="enlaces borde2">MAS SECCIONES</a>
-                </nav>
-            </div>
-            <div class="row">
-                <nav class="col-md-pull-2 col-xs-pull-2 temas-dia">
-                    <a class="temas borde1">TEMAS DEL DIA</a> 
+                <nav class="col-md-pull-2 col-xs-pull-16 temas-dia">
+                    <a href="#" class="temas borde1">TEMAS DEL DIA</a> 
                     <a href="#" class="grey">Globos de oro</a>
                     <a href="#" class="grey">Youtube</a>
-                    <a href="#" class="grey">PNP</a>
-                    <a href="#" class="grey">Charlie Ebdo</a>
-                    <a href="#" class="grey">Globos de oro2</a>
-                    <a href="#" class="grey">Youtube2</a>
-                    <a href="#" class="grey">PNP2</a>
-                    <a href="#" class="grey borde2">Charlie Hebdo2</a>
+                    <a href="#" class="grey hidden-xs">PNP</a>
+                    <a href="#" class="grey hidden-xs">Charlie Ebdo</a>
+                    <a href="#" class="grey hidden-xs">Globos de oro2</a>
+                    <a href="#" class="grey hidden-xs">Youtube2</a>
+                    <a href="#" class="grey hidden-xs">PNP2</a>
+                    <a href="#" class="grey borde2 hidden-xs">Charlie Hebdo2</a>
                 </nav>
             </div>  
             <div class="row banner-header">
                 <div class="col-xs-16 col-ms-16">
-                    <img src="image/banner-header.jpg">  
+                    <img src="image/banner-header.jpg" alt="banner" class="img-responsive hidden-xs">  
                 </div>
             </div>
     </header>
